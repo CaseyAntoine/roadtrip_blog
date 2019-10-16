@@ -84,6 +84,11 @@ div.bio ul{
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1000px){
-
+@media screen and (max-width: 1000px) and (min-width: 700px){
+.bio {
+  background-color: red;
+  font-size: 15px;
+  font-family: cursive;
+  width: 50%;
+}
 }
