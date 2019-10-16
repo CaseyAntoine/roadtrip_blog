@@ -82,6 +82,15 @@ div.bio ul{
   div.blog{
     background-color: inherit;
   }
+  .about{
+    color: black;
+    padding: 5px;
+  }
+
+  .progress {
+    float: none;
+    margin: 0 auto;
+  }
 }
 
 /* @media screen and (max-width: 680px) and (min-width: 500px){
