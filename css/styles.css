@@ -8,6 +8,7 @@ div.intro {
   color: blue;
   font-family: sans-serif;
   margin-bottom: 25px;
+
 }
 
 h1 {
@@ -23,6 +24,7 @@ div.blog{
   margin: 0 auto;
   display: block;
   background-color: yellow;
+  float: left;
 }
 
 div.blog h2{
@@ -39,7 +41,7 @@ div.blog img{
 div.about {
   background-color: #eee;
   font-family: fantasy;
-  margin-top: 30px;
+  margin: 30px 15px;
   height: auto;
 
 }
@@ -47,4 +49,19 @@ div.about {
 div.about h2{
   font-size: 2em;
   text-align: center;
+}
+.sidebar{
+  float: left;
+  width:10%;
+}
+div.bio ul{
+  list-style: none;
+  text-align: center;
+}
+#big{
+  width: 200px;
+}
+.progress{
+  width: 30%;
+  float: left;
 }
