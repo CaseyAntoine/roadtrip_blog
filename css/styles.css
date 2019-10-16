@@ -43,6 +43,7 @@ div.about {
   font-family: fantasy;
   margin: 30px 15px;
   height: auto;
+  clear: both;
 
 }
 
@@ -64,4 +65,25 @@ div.bio ul{
 .progress{
   width: 30%;
   float: left;
+}
+
+@media screen and (max-width: 500px) and (min-width: 300px) {
+  body {
+    background-color: teal;
+    color: white;
+  }
+
+  .sidebar {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  div.blog{
+    background-color: inherit;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+
 }
